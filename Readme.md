@@ -15,7 +15,7 @@ git clone https://github.com/CodeWithDevesh/snake-game.git
 cd snake-game
 ```
 
-## Build the Project
+## 2. Build the Project
 Be patient as this step downloads the required libraries too
 ### Windows
 
@@ -33,7 +33,7 @@ cmake ..
 make -j$(nproc)
 ```
 
-## Run the Game
+## 3. Run the Game
 After building, the executable will be inside Release or Debug folder in build.
 
 ### Windows
@@ -47,9 +47,9 @@ snake-game.exe
 ./snake-game
 ```
 
-## Ensure SFML DLLs are Present (Windows Only)
+## 4. Ensure SFML DLLs are Present (Windows Only)
 If the game does not run due to missing DLLs, manually copy the required SFML DLLs from the build/_deps/sfml-build/lib folder to the executable directory.
 
-## Notes
+## 5. Notes
 - SFML is automatically fetched via CMake's FetchContent.
 - If using a different compiler, adjust the cmake command accordingly.
