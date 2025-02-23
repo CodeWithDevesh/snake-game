@@ -9,7 +9,7 @@ A simple Snake Game built using **C++** and **SFML**.
 
 ## Getting Started
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 ```sh
 git clone https://github.com/CodeWithDevesh/snake-game.git
 cd snake-game
